@@ -1,0 +1,71 @@
+﻿@model MerchEnrolServiceWebUI.Models.Merchant
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete merchant details</h2>
+<div>
+    <h4 style="color:red;">Are you sure you want to delete this?</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Merchant Name")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MerchantName)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Added By")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Country")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Merchant Profit")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MerchantProfit)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Date Added")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateAdded)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Number of Outlets")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoOfOutlets)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

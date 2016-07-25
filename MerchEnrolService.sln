@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchEnrolServiceWebUI", "MerchEnrolServiceWebUI\MerchEnrolServiceWebUI.csproj", "{8A8C1F06-5E01-423A-BBA8-5153EA408853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchEnrolServiceWebUI.Tests", "MerchEnrolService.Tests\MerchEnrolServiceWebUI.Tests.csproj", "{7C444DC5-65E9-4E3C-AE93-5C7D241B30D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A8C1F06-5E01-423A-BBA8-5153EA408853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8C1F06-5E01-423A-BBA8-5153EA408853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8C1F06-5E01-423A-BBA8-5153EA408853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8C1F06-5E01-423A-BBA8-5153EA408853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C444DC5-65E9-4E3C-AE93-5C7D241B30D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C444DC5-65E9-4E3C-AE93-5C7D241B30D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C444DC5-65E9-4E3C-AE93-5C7D241B30D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C444DC5-65E9-4E3C-AE93-5C7D241B30D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

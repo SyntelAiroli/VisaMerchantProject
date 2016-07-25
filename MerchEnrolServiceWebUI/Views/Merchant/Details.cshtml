@@ -1,0 +1,66 @@
+﻿@model MerchEnrolServiceWebUI.Models.Merchant
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>View merchant details</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Merchant Name")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MerchantName)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Added By")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Country")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Merchant Profit")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MerchantProfit)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Date Added")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateAdded)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Number of Outlets")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoOfOutlets)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

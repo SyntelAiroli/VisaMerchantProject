@@ -1,0 +1,1 @@
+Assert.AreEqual failed. Expected:<(null)>. Actual:<MerchEnrolServiceWebUI.Models.Merchant>. 
